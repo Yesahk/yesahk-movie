@@ -1,6 +1,6 @@
 {
   "name": "cinematic-experience",
-  "homepage": " https://yesahk.github.io/yesahk-movie/",
+ 
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -8,9 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
+   
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
